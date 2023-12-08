@@ -3,7 +3,7 @@ import requests
 
 # Fonction pour envoyer les données à l'API Flask
 def envoyer_a_api(titre, body):
-    url_api = "http://127.0.0.1:8080/"
+    url_api = "https://api-classification-questions.onrender.com/"  #"http://127.0.0.1:8080/"
     data = {"titre_test": titre, "body_test": body}
 
     # Envoi de la requête à l'API Flask
